@@ -1,18 +1,45 @@
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Como Executar
 
-## Folder Structure
+1. **Clonar o repositório**:
+   ```bash
+   git clone <url-do-repositorio>
+   ```
 
-The workspace contains two folders by default, where:
+2. **Navegar até a pasta do projeto** e criar uma subpasta chamada `model`:
+   ```bash
+   cd Bootcamp-THZN
+   mkdir model
+   ```
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+3. **Copiar os arquivos de classe** fornecidos para a subpasta `model`.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+4. **Compilar o projeto**:
+   No terminal, dentro da pasta do projeto, execute:
+   ```bash
+   javac model/*.java Main.java
+   ```
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+5. **Executar o projeto**:
+   ```bash
+   java Main
+   ```
 
-## Dependency Management
+## Exemplo de Uso
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Após rodar o projeto, o sistema exibirá um menu com as seguintes opções:
+
+1. **Fazer Login**: Permite que o usuário faça login com seu email.
+2. **Fazer Cadastro**: Permite que um novo usuário se cadastre fornecendo nome e email.
+3. **Sair**: Sai do sistema.
+
+Após fazer login, o usuário pode:
+
+- Se inscrever no Bootcamp.
+- Progredir nos cursos e mentorias.
+- Consultar seus conteúdos inscritos, concluídos e o XP acumulado.
+
+## Contribuições
+
+Sinta-se à vontade para contribuir com melhorias ao projeto. Sugestões e pull requests são bem-vindos!
+
